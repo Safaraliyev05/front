@@ -1,0 +1,49 @@
+header {
+    display: flex;
+    margin-left: 70px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+nav {
+    margin-left: 894px;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.yozuv {
+    display: inline-block;
+    margin-left: 70px;
+}
+
+.yozuv h1 {
+    font-family: "Handlee", cursive;
+    font-size: 64px;
+}
+
+.yozuv p {
+    font-size: 24px;
+}
+
+.yozuv a {
+    border: 1px solid #000000;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+}
+
+
+main img {
+    margin-left: 787px;
+    top: 253px;
+}

@@ -1,0 +1,72 @@
+body {
+    background-color: #012A30;
+}
+
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.nav {
+    height: 82px;
+    background-color: #00B534;
+}
+
+.karta {
+    height: 507px;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav h1 {
+    width: 102px;
+    height: 43px;
+    top: 19px;
+    margin-left: 589px;
+    color: white;
+    font-size: 33px;
+}
+
+
+.footer img {
+    margin-left: 143px;
+}
+
+.icons {
+    display: inline-block;
+    margin-left: 583px;
+}
+
+.icons i {
+    color: #00B534;
+}
+
+.number {
+    display: inline-block;
+    margin-left: 985px;
+}
+
+.number p {
+    display: inline-block;
+    color: #DBF9D8;
+}
+
+.chiziq {
+    width: 993px;
+    height: 1px;
+    margin-left: 143px;
+    background-color: #DBF9D8;
+
+}
+
+.last {
+    margin-left: 143px;
+    color: #DBF9D8;
+}
+
+
+.rek {
+    display: inline-block;
+    margin-left: 990px;
+}

@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url("./fantasy-style-galaxy-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.login {
+    background: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(15px);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    width: 300px;
+}
+
+.login h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.username,
+.password {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.username input,
+.password input {
+    width: 250px;
+    padding: 10px 10px 10px 40px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 16px;
+}
+
+.username input::placeholder,
+.password input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.username i,
+.password i {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+}
+
+.login p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.login a {
+    color: #00c3ff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+.login button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #00c3ff;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login button:hover {
+    background: #0099cc;
+}
+
+.username input:focus,
+.password input:focus {
+    box-shadow: 0 0 5px #00c3ff;
+    background: rgba(255, 255, 255, 0.3);
+}

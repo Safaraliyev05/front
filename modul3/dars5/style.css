@@ -1,0 +1,11 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(20deg, #ffe641, #f50062, #4f5ed1)
+}

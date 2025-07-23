@@ -1,0 +1,29 @@
+/* @keyframes animation{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: yellow;
+    }
+} */
+
+@keyframes animation{
+    25%{
+        background-color: green;
+        border-radius: 50%;
+    }
+    50%{
+        background-color: blue;
+        border-radius: 50%;
+    }
+}
+
+
+.div1{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
