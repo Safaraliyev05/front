@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f2f2f2;
+    margin: 0;
+}
+
+.search-box {
+    background-color: #f3f8ff;
+    padding: 10px 20px;
+    border-radius: 40px;
+    width: 984px;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.search-box input {
+    border: none;
+    background: transparent;
+    width: 100%;
+    font-size: 32px;
+}
+
+.search-box i {
+    font-size: 20px;
+    color: #5f6368;
+    padding: 8px;
+}

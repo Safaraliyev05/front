@@ -1,0 +1,22 @@
+.main {
+    width: 232px;
+    height: 457px;
+}
+
+
+label {
+    position: absolute;
+}
+
+#star:checked~#icon {
+    color: yellow;
+}
+
+#star {
+    display: none;
+}
+
+.sharh{
+    display: flex;
+    gap: 10px;
+}

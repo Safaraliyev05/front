@@ -1,0 +1,17 @@
+div{
+    width: 200px;
+    height: 100px;
+    background-color: skyblue;
+    overflow: scroll;
+}
+
+img{
+    width: 300px;
+    transition: 2s linear;
+}
+
+img:hover{
+    /* transform: scale(2); */
+    transform: rotate(45deg);
+
+}
