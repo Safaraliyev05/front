@@ -1,0 +1,52 @@
+.con {
+    width: 340px;
+    height: 420px;
+    border-radius: 26px;
+    border: 1.32px solid #BEBEBE
+}
+
+section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 14px;
+}
+
+.main_image {
+    width: 340px;
+    height: 213px;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.icon-wrapper {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #0002;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon-wrapper .tooltip {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    top: 100%;
+    display: none;
+}
+
+.icon-wrapper:hover .tooltip {
+    display: inline-block;
+}
