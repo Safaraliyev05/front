@@ -1,0 +1,21 @@
+.dropdown {
+    width: max-content;
+    border: 1px solid;
+    padding: 10px;
+    position: relative;
+}
+
+.container {
+    width: max-content;
+    border: 1px solid;
+    padding: 0 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    display: none;
+}
+
+.dropdown:hover .container {
+    display: inline-block;
+}

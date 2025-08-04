@@ -1,0 +1,17 @@
+#modal {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #0002;
+    border-radius: 10px;
+    background-color: red;
+}
+
+/* #modal::backdrop{
+    background-color: #006;
+} */
+
+.con {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}

@@ -1,0 +1,22 @@
+.heading {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0002;
+}
+
+.description {
+    width: 300px;
+    border: 1px solid;
+    display: none;
+}
+
+#checkbox:checked~.description {
+    display: inline-block;
+}
+
+/* Input ko'rinmas qilish */
+#checkbox {
+    display: none;
+}
