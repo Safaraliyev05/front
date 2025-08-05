@@ -1,16 +1,16 @@
-div{
+div {
     width: 200px;
     height: 100px;
     background-color: skyblue;
     overflow: scroll;
 }
 
-img{
+img {
     width: 300px;
     transition: 2s linear;
 }
 
-img:hover{
+img:hover {
     /* transform: scale(2); */
     transform: rotate(45deg);
 
