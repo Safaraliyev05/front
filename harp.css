@@ -1,4 +1,4 @@
-div {
+/* div {
     width: 200px;
     height: 100px;
     background-color: skyblue;
@@ -11,7 +11,7 @@ img {
 }
 
 img:hover {
-    /* transform: scale(2); */
+    transform: scale(2);
     transform: rotate(45deg);
 
-}
+} */
