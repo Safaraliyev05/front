@@ -5,6 +5,7 @@
     font-family: "Inter", sans-serif;
 }
 
+/* Container of all cards */
 body {
     display: flex;
     justify-content: center;
@@ -13,6 +14,7 @@ body {
     height: 100vh;
 }
 
+/* Container of each card */
 .hero {
     width: 282px;
     height: 354px;
@@ -24,6 +26,7 @@ body {
     justify-content: center;
 }
 
+/* Sale icon section */
 .sale {
     position: absolute;
     transform: translate(150px, -170px);
@@ -57,7 +60,7 @@ body {
 }
 
 
-
+/* Main image section */
 .image {
     width: 262px;
     height: 262px;
@@ -69,6 +72,7 @@ body {
     height: 100%;
 }
 
+/* Information about product section */
 .about {
     display: flex;
     flex-direction: row;
