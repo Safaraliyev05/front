@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 79px;
+    height: 100vh;
+}
+
+.hero {
+    width: 282px;
+    height: 354px;
+    border: 1px solid #4361FF4D;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sale {
+    position: absolute;
+    transform: translate(150px, -170px);
+
+}
+
+.sale img {
+    animation-name: sale_ani;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sale_ani {
+    0% {
+        width: 108px;
+        height: 108px;
+        transform: rotate(0deg);
+    }
+
+    50% {
+        width: 90px;
+        height: 90px;
+        transform: rotate(30deg);
+    }
+
+    100% {
+        width: 108px;
+        height: 108px;
+        transform: rotate(0deg);
+    }
+}
+
+
+
+.image {
+    width: 262px;
+    height: 262px;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info {
+    width: 198px;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4361FF;
+}
+
+button i {
+    font-size: 35px;
+    color: white;
+}
