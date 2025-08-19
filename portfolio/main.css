@@ -86,8 +86,8 @@ nav button {
     gap: 192px;
 }
 
-.about-text{
-    width: 584px%;
+.about-text {
+    width: 584px;
     height: 694px;
     display: flex;
     flex-direction: column;
