@@ -97,20 +97,87 @@ const y = 3
 // )
 
 
-const numberOfSeries = +prompt("Nechta serial ko'rgindiz")
+// const numberOfSeries = +prompt("Nechta serial ko'rgindiz")
 
-const seriesDb = {
-    count: numberOfSeries,
-    series: {}
-}
+// const seriesDb = {
+//     count: numberOfSeries,
+//     series: {}
+// }
 
-for (let i = 0; numberOfSeries > i; i++) {
-    const a = prompt(`Serial nomi ${i}`)
-    const b = +prompt(`Necha baho berasiz ${i}`)
+// for (let i = 0; numberOfSeries > i; i++) {
+//     const a = prompt(`Serial nomi ${i}`)
+//     const b = +prompt(`Necha baho berasiz ${i}`)
 
-    if (a != null && b != null && a != '' && b != '') {
-        console.log('Done')
-    } else {
-        i--
-    }
-}
+//     if (a != null && b != null && a != '' && b != '') {
+//         console.log('Done')
+//     } else {
+//         i--
+//     }
+// }
+
+
+
+// // Function
+
+// // 1) funtion declatation
+
+// // key     name      argument 
+// function calculate(a, b, icon) {
+//     if (icon == "+") {
+//         return a + b
+//     } else if (icon == "-") {
+//         return a - b
+//     } else if (icon == "/") {
+//         return a / b
+//     } else {
+//         return a * b
+//     }
+// }
+
+// console.log(calculate(12, 3, "-"))
+
+// // 2) function expression
+// const showHelloWorld = function () {
+//     console.log("Hello World")
+// }
+
+// showHelloWorld()
+
+
+// // 3) Arrow function
+// const calc = (a, b) => a + b
+
+// console.log(calc(1, 2))
+
+
+
+
+// String Metodlar
+const text = "Hello World"
+const passwd = "        aasdad      "
+// 1) length is property
+console.log("Uzunligi:", text.length)
+
+// Methods
+console.log(text.charAt(2)) // 2-indexdagi element
+console.log(text[2])
+
+console.log(text.charCodeAt(2)) // UTF-16
+
+console.log(text.toUpperCase()) // Upper
+console.log(text.toLowerCase()) // Lower
+console.log(text.slice(0, -4)) // Kesish, negative index
+console.log(text.substring(0, 2)) // negative index yoq
+console.log(passwd.trim()) // ikki tarafdan space olib tashlash
+console.log(passwd.trimStart()) // boshidan space olib tashlash
+console.log(passwd.trimEnd()) // Oxiridan space olib tashlash 
+
+
+// Number methods
+const num = 12.6
+const width = '240.42px'
+
+console.log(Math.round(num)) // Eng yaqinga yaxlitlash
+console.log(Math.floor(num)) // butun songa yaxlitlash
+console.log(parseInt(width)) // stringdan butuon songa
+console.log(parseFloat(width)) // stringdan songa
