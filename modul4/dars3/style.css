@@ -5,3 +5,14 @@
 input {
     display: none;
 }
+
+.card {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+body{
+    display: flex;
+    justify-content: space-around;
+}
